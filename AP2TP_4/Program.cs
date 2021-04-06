@@ -10,40 +10,56 @@ namespace AP2TP_4
         public static void Main(string[] args)
         {
             // input string
+            var input = "This is test";
+            /*
             var input = "sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras " +
                              "semper auctor neque vitae tempus quam pellentesque nec nam aliquam sem et tortor consequa";
-                           
+              */             
 
-            input = input.ToUpper();
 
             // variables
-            var letters = new Dictionary<char, int>();
+            var characters = new Dictionary<char, int>();
             var letterCount = input.Length;
-            var probability = 0;
-
             
             // check if character c is in letter, if not add it, if yes, add value +1
             foreach (var c in input)
             {
-                if (letters.ContainsKey(c))
+                if (characters.ContainsKey(c))
                 {
-                    letters[c]++;
+                    characters[c]++;
                 }
                 else
                 {
-                    letters[c] = 1;
+                    characters[c] = 1;
                 }
             }
 
-            Console.WriteLine($"Pocet znaku: {letterCount}");
+            Console.WriteLine($"Number of characters: {letterCount}");
 
-            foreach (var c in letters)
+            // print keys, values of dictionary letters
+            foreach (var c in characters)
+                Console.WriteLine($"Key, Value = {c}");
+            
+            
+            // probability
+            var probabilityDict = new Dictionary<char, double>();
+            foreach (var c in characters)
             {
-               
+                var probability = Convert.ToDouble(c.Value) / letterCount;
+                probabilityDict.Add(c.Key, probability);
+            }
+
+            foreach (var c in probabilityDict)
+            {
+                Console.WriteLine($"Key, Probablity = {c}");
             }
             
-
             
+           
+
+
+
+
         }
 
         private static string ShannonFanova(string input)
