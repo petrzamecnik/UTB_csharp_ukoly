@@ -1,0 +1,16 @@
+C:\Users\petrz\RiderProjects\Ukoly\Ukoly\bin\Debug\net5.0\Ukoly.exe
+C:\Users\petrz\RiderProjects\Ukoly\Ukoly\bin\Debug\net5.0\Ukoly.deps.json
+C:\Users\petrz\RiderProjects\Ukoly\Ukoly\bin\Debug\net5.0\Ukoly.runtimeconfig.json
+C:\Users\petrz\RiderProjects\Ukoly\Ukoly\bin\Debug\net5.0\Ukoly.runtimeconfig.dev.json
+C:\Users\petrz\RiderProjects\Ukoly\Ukoly\bin\Debug\net5.0\Ukoly.dll
+C:\Users\petrz\RiderProjects\Ukoly\Ukoly\bin\Debug\net5.0\ref\Ukoly.dll
+C:\Users\petrz\RiderProjects\Ukoly\Ukoly\bin\Debug\net5.0\Ukoly.pdb
+C:\Users\petrz\RiderProjects\Ukoly\Ukoly\obj\Debug\net5.0\Ukoly.csprojAssemblyReference.cache
+C:\Users\petrz\RiderProjects\Ukoly\Ukoly\obj\Debug\net5.0\Ukoly.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petrz\RiderProjects\Ukoly\Ukoly\obj\Debug\net5.0\Ukoly.AssemblyInfoInputs.cache
+C:\Users\petrz\RiderProjects\Ukoly\Ukoly\obj\Debug\net5.0\Ukoly.AssemblyInfo.cs
+C:\Users\petrz\RiderProjects\Ukoly\Ukoly\obj\Debug\net5.0\Ukoly.csproj.CoreCompileInputs.cache
+C:\Users\petrz\RiderProjects\Ukoly\Ukoly\obj\Debug\net5.0\Ukoly.dll
+C:\Users\petrz\RiderProjects\Ukoly\Ukoly\obj\Debug\net5.0\ref\Ukoly.dll
+C:\Users\petrz\RiderProjects\Ukoly\Ukoly\obj\Debug\net5.0\Ukoly.pdb
+C:\Users\petrz\RiderProjects\Ukoly\Ukoly\obj\Debug\net5.0\Ukoly.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\petrz\RiderProjects\Ukoly\virtualni_metody\bin\Debug\net5.0\virtualni_metody.exe
+C:\Users\petrz\RiderProjects\Ukoly\virtualni_metody\bin\Debug\net5.0\virtualni_metody.deps.json
+C:\Users\petrz\RiderProjects\Ukoly\virtualni_metody\bin\Debug\net5.0\virtualni_metody.runtimeconfig.json
+C:\Users\petrz\RiderProjects\Ukoly\virtualni_metody\bin\Debug\net5.0\virtualni_metody.runtimeconfig.dev.json
+C:\Users\petrz\RiderProjects\Ukoly\virtualni_metody\bin\Debug\net5.0\virtualni_metody.dll
+C:\Users\petrz\RiderProjects\Ukoly\virtualni_metody\bin\Debug\net5.0\ref\virtualni_metody.dll
+C:\Users\petrz\RiderProjects\Ukoly\virtualni_metody\bin\Debug\net5.0\virtualni_metody.pdb
+C:\Users\petrz\RiderProjects\Ukoly\virtualni_metody\obj\Debug\net5.0\virtualni_metody.csprojAssemblyReference.cache
+C:\Users\petrz\RiderProjects\Ukoly\virtualni_metody\obj\Debug\net5.0\virtualni_metody.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petrz\RiderProjects\Ukoly\virtualni_metody\obj\Debug\net5.0\virtualni_metody.AssemblyInfoInputs.cache
+C:\Users\petrz\RiderProjects\Ukoly\virtualni_metody\obj\Debug\net5.0\virtualni_metody.AssemblyInfo.cs
+C:\Users\petrz\RiderProjects\Ukoly\virtualni_metody\obj\Debug\net5.0\virtualni_metody.csproj.CoreCompileInputs.cache
+C:\Users\petrz\RiderProjects\Ukoly\virtualni_metody\obj\Debug\net5.0\virtualni_metody.dll
+C:\Users\petrz\RiderProjects\Ukoly\virtualni_metody\obj\Debug\net5.0\ref\virtualni_metody.dll
+C:\Users\petrz\RiderProjects\Ukoly\virtualni_metody\obj\Debug\net5.0\virtualni_metody.pdb
+C:\Users\petrz\RiderProjects\Ukoly\virtualni_metody\obj\Debug\net5.0\virtualni_metody.genruntimeconfig.cache
