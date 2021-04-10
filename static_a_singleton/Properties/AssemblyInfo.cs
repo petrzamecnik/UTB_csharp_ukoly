@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AP2TP_4")]
+[assembly: AssemblyTitle("static_a_singleton")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AP2TP_4")]
+[assembly: AssemblyProduct("static_a_singleton")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("C94EB064-86AF-4D62-B066-33ABECFC904A")]
+[assembly: Guid("615D28A3-6E99-4059-BDD6-AE5A8140A8CF")]
 
 // Version information for an assembly consists of the following four values:
 //

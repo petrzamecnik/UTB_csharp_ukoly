@@ -1,0 +1,6 @@
+C:\Users\petrz\RiderProjects\Ukoly\AP2TP_SP4\bin\Debug\AP2TP_SP4.exe
+C:\Users\petrz\RiderProjects\Ukoly\AP2TP_SP4\bin\Debug\AP2TP_SP4.pdb
+C:\Users\petrz\RiderProjects\Ukoly\AP2TP_SP4\obj\Debug\AP2TP_SP4.csprojAssemblyReference.cache
+C:\Users\petrz\RiderProjects\Ukoly\AP2TP_SP4\obj\Debug\AP2TP_SP4.csproj.CoreCompileInputs.cache
+C:\Users\petrz\RiderProjects\Ukoly\AP2TP_SP4\obj\Debug\AP2TP_SP4.exe
+C:\Users\petrz\RiderProjects\Ukoly\AP2TP_SP4\obj\Debug\AP2TP_SP4.pdb

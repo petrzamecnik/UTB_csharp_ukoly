@@ -1,0 +1,6 @@
+C:\Users\petrz\RiderProjects\Ukoly\static_a_singleton\bin\Debug\static_a_singleton.exe
+C:\Users\petrz\RiderProjects\Ukoly\static_a_singleton\bin\Debug\static_a_singleton.pdb
+C:\Users\petrz\RiderProjects\Ukoly\static_a_singleton\obj\Debug\static_a_singleton.csprojAssemblyReference.cache
+C:\Users\petrz\RiderProjects\Ukoly\static_a_singleton\obj\Debug\static_a_singleton.csproj.CoreCompileInputs.cache
+C:\Users\petrz\RiderProjects\Ukoly\static_a_singleton\obj\Debug\static_a_singleton.exe
+C:\Users\petrz\RiderProjects\Ukoly\static_a_singleton\obj\Debug\static_a_singleton.pdb

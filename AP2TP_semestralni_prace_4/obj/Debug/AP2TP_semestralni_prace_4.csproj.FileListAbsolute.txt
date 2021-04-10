@@ -1,0 +1,6 @@
+C:\Users\petrz\RiderProjects\AP2TP_semestralni_prace_4\AP2TP_semestralni_prace_4\bin\Debug\AP2TP_semestralni_prace_4.exe
+C:\Users\petrz\RiderProjects\AP2TP_semestralni_prace_4\AP2TP_semestralni_prace_4\bin\Debug\AP2TP_semestralni_prace_4.pdb
+C:\Users\petrz\RiderProjects\AP2TP_semestralni_prace_4\AP2TP_semestralni_prace_4\obj\Debug\AP2TP_semestralni_prace_4.csprojAssemblyReference.cache
+C:\Users\petrz\RiderProjects\AP2TP_semestralni_prace_4\AP2TP_semestralni_prace_4\obj\Debug\AP2TP_semestralni_prace_4.csproj.CoreCompileInputs.cache
+C:\Users\petrz\RiderProjects\AP2TP_semestralni_prace_4\AP2TP_semestralni_prace_4\obj\Debug\AP2TP_semestralni_prace_4.exe
+C:\Users\petrz\RiderProjects\AP2TP_semestralni_prace_4\AP2TP_semestralni_prace_4\obj\Debug\AP2TP_semestralni_prace_4.pdb

@@ -5,11 +5,11 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{C94EB064-86AF-4D62-B066-33ABECFC904A}</ProjectGuid>
+        <ProjectGuid>{615D28A3-6E99-4059-BDD6-AE5A8140A8CF}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>AP2TP_4</RootNamespace>
-        <AssemblyName>AP2TP_4</AssemblyName>
+        <RootNamespace>static_a_singleton</RootNamespace>
+        <AssemblyName>static_a_singleton</AssemblyName>
         <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
