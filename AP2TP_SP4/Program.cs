@@ -37,6 +37,7 @@ namespace AP2TP_SP4
                 }
             }
             
+
             /* Calculate probability for each symbol */
             foreach (var symbol in symbols)
             { 
@@ -55,7 +56,7 @@ namespace AP2TP_SP4
                 left group  -> add "0" to CODE
                 right group -> add "1" to CODE
              */
-            /*
+            
             var bestDifference = int.MaxValue;
             for(var i = 1; i < symbolCount; i++)
             {
@@ -73,14 +74,8 @@ namespace AP2TP_SP4
                 else break;
             }
             Console.WriteLine($"Best Difference -> {bestDifference}");
-            */
-
-
-            /* Methods here */
 
             
-
-
         }
         private static void ReturnSymbolInfo(Symbol symbol) =>
             Console.WriteLine( $"Symbol {symbol.ReturnText()} -> " +

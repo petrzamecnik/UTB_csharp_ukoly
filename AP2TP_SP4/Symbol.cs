@@ -5,7 +5,7 @@
         private string Text { get; set; }
         private int Count { get; set; }
         public double Probability { get; set; }
-        private string Code { get; set; }
+        public string Code { get; set; }
 
         public Symbol(string text, int count, double probability, string code)
         {
