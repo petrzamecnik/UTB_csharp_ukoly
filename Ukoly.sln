@@ -12,7 +12,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APT2P_SP_4", "APT2P_SP_4\AP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hero_and_dragon", "hero_and_dragon\hero_and_dragon.csproj", "{AE06EAFC-24BD-4BC2-B5A6-FBA742F510E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hrdina_a_drak", "..\UTB\hrdina_a_drak\hrdina_a_drak.csproj", "{7CDD1253-56D3-4702-82B7-9A4E4B413850}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hrdina_a_drak", "hrdina_a_drak\hrdina_a_drak.csproj", "{7CDD1253-56D3-4702-82B7-9A4E4B413850}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
