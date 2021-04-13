@@ -28,7 +28,7 @@ namespace AP2TP_SP4
                 symbolCount++;
                 if (symbols.All(symbol => symbol.ReturnText() != x.ToString()))
                 {
-                    symbols.Add(new Symbol(x.ToString(), 1, double.NaN, "000"));
+                    symbols.Add(new Symbol(x.ToString(), 1, double.NaN, ""));
                 }
                 else
                 {
