@@ -6,8 +6,7 @@ namespace APT2P_SP_4
 {
     internal class Program
     {
-
-        class Symbol
+        private class Symbol
         {
             public string Text { get; set; }
             public int Count { get; set; }
@@ -42,14 +41,15 @@ namespace APT2P_SP_4
             {
                 Count++;
             }
-            
-            
-            
         }
+        
+        
         
         public static void Main(string[] args)
         {
-            const string inputString = "This is a test string";
+            const string inputString =
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et" +
+                " dolore magna aliqua.";
             var outputString = "";
             var symbols = new List<Symbol>();
 
@@ -68,25 +68,19 @@ namespace APT2P_SP_4
                 }
             }
             symbols = symbols.OrderBy(symbol => symbol.Count).Reverse().ToList();
-            foreach (var symbol in symbols)
-                ReturnSymbolInfo(symbol);
-
-
-
+            
             // Count symbols
             var total = TotalCount(symbols);
-            
-
-            
+        
             // Count probability of each symbol
             foreach(var symbol in symbols)
             {
                 symbol.Probability = Math.Round(Convert.ToDouble(symbol.Count) / Convert.ToDouble(total) * 100, 3);
             }
-  
-            Coding(symbols, "", 0);
 
+            Coding(symbols, "", 0);
             Console.WriteLine(new string('-', 60));
+
             foreach (var x in inputString)
             {
                 var index = symbols.FindIndex(symbol => symbol.ReturnText() == x.ToString());
@@ -98,10 +92,22 @@ namespace APT2P_SP_4
             {
                 ReturnSymbolInfo(symbol);
             }
+            
+            var avgLength = Math.Round(symbols.Sum(symbol => symbol.Code.Length * symbol.Probability));
+            avgLength /= 100;
 
-            Console.WriteLine($"Output: {outputString}");
+            var codeEfficiency =
+                Math.Round(
+                    symbols.Sum(symbol => symbol.Probability * Math.Log(symbol.Probability)) / avgLength, 2);
+            
+            Console.WriteLine($"Average word length: {avgLength}");
+            Console.WriteLine($"Code efficiency: {codeEfficiency}");
             Console.WriteLine($"Symbol count: {total}");
+            Console.WriteLine($"Output: {outputString}");
+
         }
+        
+      
         
         
         // METHODS HERE
@@ -109,6 +115,7 @@ namespace APT2P_SP_4
         private static int TotalCount(IEnumerable<Symbol> symbols) =>
             symbols.Aggregate(0, (a, s) => a + s.Count);
 
+        
         private static void Coding(IEnumerable<Symbol> symbols_, string str, int depth)
         {
             var enumerable = symbols_ as Symbol[] ?? symbols_.ToArray();
@@ -133,11 +140,14 @@ namespace APT2P_SP_4
             }
             i -= 1;
 
-            Console.WriteLine("{0}{1}|{2}", new String('\t', depth), enumerable.Take(i).Aggregate("", (a, s) => a + s.Text + " "), enumerable.Skip(i).Aggregate("", (a, s) => a + s.Text + " "));
+            
+            Console.WriteLine("{0}{1}|{2}", new String('\t', depth), enumerable.Take(i).Aggregate("", (a, s)
+                => a + s.Text + " "), enumerable.Skip(i).Aggregate("", (a, s) => a + s.Text + " "));
 
             Coding(enumerable.Take(i), str + "0", depth + 1);
             Coding(enumerable.Skip(i), str + "1", depth + 1);
         }
+        
         
         private static void ReturnSymbolInfo(Symbol symbol) =>
             Console.WriteLine( $"Symbol {symbol.ReturnText()} -> " +

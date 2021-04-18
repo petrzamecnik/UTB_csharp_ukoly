@@ -14,6 +14,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hero_and_dragon", "hero_and
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hrdina_a_drak", "hrdina_a_drak\hrdina_a_drak.csproj", "{7CDD1253-56D3-4702-82B7-9A4E4B413850}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delegate.csproj", "{4DB31A98-1C95-465B-8122-FA3B45C502B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda", "Lambda\Lambda.csproj", "{B7588B16-B1AC-4FD4-8B96-CF83C4C6CE69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +52,13 @@ Global
 		{7CDD1253-56D3-4702-82B7-9A4E4B413850}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CDD1253-56D3-4702-82B7-9A4E4B413850}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CDD1253-56D3-4702-82B7-9A4E4B413850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB31A98-1C95-465B-8122-FA3B45C502B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB31A98-1C95-465B-8122-FA3B45C502B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB31A98-1C95-465B-8122-FA3B45C502B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB31A98-1C95-465B-8122-FA3B45C502B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7588B16-B1AC-4FD4-8B96-CF83C4C6CE69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7588B16-B1AC-4FD4-8B96-CF83C4C6CE69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7588B16-B1AC-4FD4-8B96-CF83C4C6CE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7588B16-B1AC-4FD4-8B96-CF83C4C6CE69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

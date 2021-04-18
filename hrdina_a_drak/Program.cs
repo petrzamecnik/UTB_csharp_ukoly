@@ -9,7 +9,8 @@ using hrdina_a_drak.Veci;
 
 namespace hrdina_a_drak
 {
-    internal static class Program
+    internal static class 
+        Program
     {
 
         public static void Main(string[] args)

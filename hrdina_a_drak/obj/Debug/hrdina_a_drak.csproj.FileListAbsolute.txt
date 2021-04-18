@@ -4,3 +4,9 @@ C:\Users\petrz\RiderProjects\UTB\hrdina_a_drak\obj\Debug\hrdina_a_drak.csprojAss
 C:\Users\petrz\RiderProjects\UTB\hrdina_a_drak\obj\Debug\hrdina_a_drak.csproj.CoreCompileInputs.cache
 C:\Users\petrz\RiderProjects\UTB\hrdina_a_drak\obj\Debug\hrdina_a_drak.exe
 C:\Users\petrz\RiderProjects\UTB\hrdina_a_drak\obj\Debug\hrdina_a_drak.pdb
+C:\Users\petrz\RiderProjects\Ukoly\hrdina_a_drak\bin\Debug\hrdina_a_drak.exe
+C:\Users\petrz\RiderProjects\Ukoly\hrdina_a_drak\bin\Debug\hrdina_a_drak.pdb
+C:\Users\petrz\RiderProjects\Ukoly\hrdina_a_drak\obj\Debug\hrdina_a_drak.csprojAssemblyReference.cache
+C:\Users\petrz\RiderProjects\Ukoly\hrdina_a_drak\obj\Debug\hrdina_a_drak.csproj.CoreCompileInputs.cache
+C:\Users\petrz\RiderProjects\Ukoly\hrdina_a_drak\obj\Debug\hrdina_a_drak.exe
+C:\Users\petrz\RiderProjects\Ukoly\hrdina_a_drak\obj\Debug\hrdina_a_drak.pdb
