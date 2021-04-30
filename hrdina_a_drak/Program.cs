@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using hrdina_a_drak.Postavy;
 using hrdina_a_drak.Veci;
 
@@ -248,7 +249,15 @@ namespace hrdina_a_drak
         // vrati jmeno monstra z file.txt
         private static List<string> VratJmenoNovehoMonstra()
         {
-            var seznamMonster = File.ReadAllText("C:\\Users\\petrz\\RiderProjects\\UTB\\hrdina_a_drak\\jmena_monster.txt");
+            var seznamMonster = "";
+            if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
+            {
+                seznamMonster = File.ReadAllText("/Users/petrzamecnik/RiderProjects/Ukoly/hrdina_a_drak/jmena_monster.txt");
+            }
+            if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+            { 
+                seznamMonster = File.ReadAllText("C:\\Users\\petrz\\RiderProjects\\UTB\\hrdina_a_drak\\jmena_monster.txt");
+            }
             var jmena = seznamMonster.Split(',').ToList();
             
             return jmena;

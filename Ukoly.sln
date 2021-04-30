@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delega
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda", "Lambda\Lambda.csproj", "{B7588B16-B1AC-4FD4-8B96-CF83C4C6CE69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AP2TP_SP5", "AP2TP_SP5\AP2TP_SP5.csproj", "{52C5F8AF-EAD4-4958-AA0E-5BDB431F3F19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{B7588B16-B1AC-4FD4-8B96-CF83C4C6CE69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7588B16-B1AC-4FD4-8B96-CF83C4C6CE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7588B16-B1AC-4FD4-8B96-CF83C4C6CE69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52C5F8AF-EAD4-4958-AA0E-5BDB431F3F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C5F8AF-EAD4-4958-AA0E-5BDB431F3F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C5F8AF-EAD4-4958-AA0E-5BDB431F3F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C5F8AF-EAD4-4958-AA0E-5BDB431F3F19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

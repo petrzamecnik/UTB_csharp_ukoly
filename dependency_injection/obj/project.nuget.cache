@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2pU2Ka6l1VYjsEWwlBPYMH807y05csucBMi1JvwhMKFQCuXLOi+Wu+fQhdUv7TINZ4JERC4nNUKlLkcgPqQG/g==",
+  "dgSpecHash": "6+m9eqmkO5DZLbmz7d0C0l+slWEWo/6F1OBOTN+qarD+QZlrnWBS848I+gYI/ttH0Dk5Y3Y+DwjPwGx+sh+KGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\petrz\\RiderProjects\\Ukoly\\dependency_injection\\dependency_injection.csproj",
+  "projectFilePath": "/Users/petrzamecnik/RiderProjects/Ukoly/dependency_injection/dependency_injection.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
